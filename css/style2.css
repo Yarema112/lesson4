@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
 .wrapper {
-	background-color: #e5e5e5;
 	min-height: 100%;
 	overflow: hidden;
 	font-family: "Lato", sans-serif;
@@ -11,8 +10,8 @@
 }
 
 .h1 {
-	width: 810px;
-	height: 120px;
+	max-width: 810px;
+
 	margin-top: 190px;
 	margin-bottom: 40px;
 	margin-left: 345px;
@@ -21,33 +20,30 @@
 	line-height: 1.3;
 	color: #1e212c;
 }
-
 .img {
-	width: 810px;
+	width: 100%;
 	margin-left: 345px;
 	margin-bottom: 60px;
 }
 
 .text1 {
-	width: 810px;
+	max-width: 810px;
 	margin-bottom: 24px;
 	margin-left: 345px;
-	height: 90px;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.5;
 	color: #1e212c;
 }
 .text2 {
-	width: 810px;
-	height: 182px;
+	max-width: 810px;
+
 	margin-bottom: 48px;
 	margin-left: 345px;
 	color: #424551;
 }
 .text3 {
-	width: 810px;
-	height: 120px;
+	max-width: 810px;
 	margin-bottom: 48px;
 	margin-left: 345px;
 	padding-left: 58px;
@@ -58,17 +54,13 @@
 }
 
 .text4 {
-	width: 810px;
-	margin-right: 765px;
+	max-width: 810px;
 	margin-bottom: 24px;
 	margin-left: 345px;
-	height: 52px;
 	color: #424551;
 }
 ol {
-	min-width: 600px;
-	height: 116px;
-	margin-right: 975px;
+	max-width: 2000px;
 	margin-bottom: 24px;
 	margin-left: 345px;
 	line-height: 1.8;
@@ -77,9 +69,8 @@ ol {
 }
 
 .text5 {
-	width: 810px;
-	height: 104px;
-	margin: 0px 765px 0px 345px;
+	max-width: 810px;
+	margin-left: 345px;
 	color: #424551;
 }
 .link {
